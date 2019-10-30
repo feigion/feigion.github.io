@@ -4,28 +4,42 @@
 <head>
   <meta charset="utf-8">
   <title>Contact Me</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao|Roboto+Condensed&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-  <h2>CONTACT</h2>
-  <p>Telephone: 1234567890</p>
-  <p>Location: Portland, OR</p>
-  <p>jenniest@jennifer.com</p>
+
+  <div class="contactInfo">
+    <h3>CONTACT</<h3>
+      <p>Telephone: 1234567890</p>
+      <p>Location: Portland, OR</p>
+      <p>jenniest@jennifer.com</p>
+  </div>
 
   <hr>
-  <form action="mailto:jennfeigion@yahoo.com" method="post" enctype="text/plain">
-    <label>Name:</label>
-    <input type="text" name="userName" value="">
-    <br>
-    <label>"Email"</label>
-    <input type="email" name="userEmail" value="">
-    <br>
-    <label for="Message"></label>
-    <br>
-    <textarea name="name" rows="8" cols="80"></textarea>
-    <br>
-    <input type="submit" name="" value="">
-  </form>
+
+  <div class="emailForm">
+    <form action="mailto:jennfeigion@yahoo.com" method="post" enctype="text/plain">
+      <label>Name:</label>
+      <input type="text" name="userName" value="">
+      <br>
+      <label>Email:</label>
+      <input type="email" name="userEmail" value="">
+      <br>
+      <label for="Message">Message:</label>
+      <br>
+      <textarea name="name" rows="10" cols="50"></textarea>
+      <br>
+      <label>Submit</label>
+      <input type="submit" name="" value="">
+    </form>
+  </div>
+  <div class="contactImage">
+    <img src="images/forest.png" alt="forest-img">
+  </div>
+<div>Icons made by <a href="https://www.flaticon.com/<?=_('authors/')?>prettycons" title="prettycons">prettycons</a> from <a href="https://www.flaticon.com/"         title="Flaticon">www.flaticon.com</a></div>
 </body>
 
 </html>

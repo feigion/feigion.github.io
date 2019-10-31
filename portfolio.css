@@ -1,7 +1,8 @@
 /***TAG SELECTORS***/
   body {
-    background-color: #EEEEEE;
+    background-color: #222831;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #EEEEEE;
 
   }
 
@@ -13,6 +14,15 @@ h1 {
 }
 h3 {
   color: #00ADB5;
+}
+footer{
+font-size: 8;
+  text-align: center;
+  background-color: #393E46;
+
+}
+navbar{
+  color: #EEEEEE;
 }
 /*******CLASS SELECTORS******/
 
@@ -26,9 +36,13 @@ color: #393E46;
 width: 500px;
 height: 400px;
 margin: 0 auto 0 auto;
-
+padding-left: 20px;
+padding-top: 10px;
 }
-
+.planet{
+  width: 10px;
+  height: 10px;
+}
 .contactInfo{
   text-align: center;
 

@@ -3,14 +3,28 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Contact Me</title>
-  <link rel="stylesheet" href="portfolio.css">
-  <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao|Roboto+Condensed&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <title>Contact Me</title>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js">
+  </script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+ <link rel="stylesheet" href="portfolio.css">
+ <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao|Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
+  <nav class ="navbar navbar-expand-lg navbar bg-dark">
+    <a class="initials" href="">JG</a>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+          <a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
   <div class="contactInfo">
     <h3>CONTACT</<h3>
       <p>Telephone: 1234567890</p>
@@ -22,18 +36,37 @@
 
   <div class="emailForm">
     <form action="mailto:jennfeigion@yahoo.com" method="post" enctype="text/plain">
-      <label>Name:</label>
-      <input type="text" name="userName" value="">
-      <br>
-      <label>Email:</label>
-      <input type="email" name="userEmail" value="">
-      <br>
-      <label for="Message">Message:</label>
-      <br>
-      <textarea name="name" rows="10" cols="50"></textarea>
-      <br>
-      <label>Submit</label>
-      <input type="submit" name="" value="">
+      <div class="row">
+        <div class="col-md-2">
+            <label>Name:</label>
+        </div>
+        <div class="col-md-6">
+          <input type="text" name="userName" value="">
+        </div>
+      </div>
+    <div class="row">
+      <div class="col-md-2">
+        <label>Email:</label>
+      </div>
+      <div class="col-md-6">
+        <input type="email" name="userEmail" value="">
+      </div>
+    </div>
+      <div class="row">
+        <div class="col-md-2">
+          <label for="Message">Message:</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <textarea name="name" rows="10" cols="50"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <input type="submit" name="" value="Submit">
+        </div>
+      </div>
     </form>
   </div>
   <div class="contactImage">

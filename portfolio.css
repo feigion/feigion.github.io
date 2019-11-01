@@ -21,11 +21,11 @@ font-size: 8;
   background-color: #393E46;
 
 }
-navbar{
-  color: #EEEEEE;
-}
-/*******CLASS SELECTORS******/
 
+/*******CLASS SELECTORS******/
+.navbar-brand{
+  font-family: cursive;
+}
 .emailForm{
 background-color: #00ADB5;
 

@@ -3,7 +3,9 @@
     background-color: #222831;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #EEEEEE;
-    padding-left: 20px;
+    padding-left: 0px;
+    border-left: 20px;
+    background-size: cover;
 
   }
 
@@ -17,9 +19,13 @@ h3 {
   color: #00ADB5;
 }
 footer{
-font-size: 8;
+  position: fixed;
+  font-size: 8;
   text-align: center;
   background-color: #393E46;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 
 }
 
@@ -27,7 +33,34 @@ font-size: 8;
 .navbar-brand{
   font-family: cursive;
 }
+.index-page{
+position: absolute;
+top: 40%;
+left: 35%;
+color: white;
+text-align: center;
+}
 
+.index-body{
+  background:linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url("images/waterfallIndexPic.jpg");
+}
+
+.index-h1{
+color: white;
+}
+
+.index-h3{
+  color: white;
+}
+
+.index-quote{
+  font: Roboto;
+  text-align: center;
+
+}
 .emailForm{
 background-color: #00ADB5;
 

@@ -3,6 +3,7 @@
     background-color: #222831;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #EEEEEE;
+    padding-left: 20px;
 
   }
 
@@ -26,6 +27,7 @@ font-size: 8;
 .navbar-brand{
   font-family: cursive;
 }
+
 .emailForm{
 background-color: #00ADB5;
 

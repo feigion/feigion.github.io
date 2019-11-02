@@ -38,6 +38,10 @@ p {
 }
 
 /*******CLASS SELECTORS******/
+.btn-primary{
+  background-color: #393E46;
+}
+
 .card {
   margin-top: 10px;
 }
